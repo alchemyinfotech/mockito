@@ -25,7 +25,7 @@ public class AuthenticatorApplication {
 	 */
 	public boolean authenticate(String username, String password) throws EmptyCredentialsException{
 	    boolean authenticated;
-	    
+	   //sample 
 	    this.authenticator.foo();
 	    authenticated = this.authenticator.authenticateUser(username, password);
 	    
